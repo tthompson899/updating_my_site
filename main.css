@@ -1,0 +1,38 @@
+.responsive-video{
+  width: 100%;
+}
+
+.about{
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+}
+  .responsive-img.circle{
+    width: 167px;
+    margin-left: 45%;
+    border: 2px solid black;
+  }
+  h2, h3, h4, p{
+    text-align: center;
+  }
+
+.html, .css, .javascript, .jquery, .materialize, .mongo, .express, .angular, .node, .macos, .apache, .mysql, .php{
+  display: inline-block;
+}
+  .front_end{
+    width: 200px;
+    height: 200px;
+    margin: 4px;
+    margin-left: 100px;
+  }
+
+  .mean, .lamp{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    margin-left: 150px;
+  }
+
+.social_icons{
+  margin: 18px;
+}
