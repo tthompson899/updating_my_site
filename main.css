@@ -16,21 +16,27 @@
     text-align: center;
   }
 
-.html, .css, .javascript, .jquery, .materialize, .mongo, .express, .angular, .node, .macos, .apache, .mysql, .php{
+.html, .css, .javascript, .jquery, .materialize, .mongo, .express, .angular, .node, .macos, .apache, .mysql, .php,
+  .git, .atom, .slack{
   display: inline-block;
 }
   .front_end{
     width: 200px;
     height: 200px;
     margin: 4px;
-    margin-left: 100px;
+    margin-left: 41px;
+  }
+  .tools{
+    width: 200px;
+    height: 200px;
+    margin-left: 165px;
   }
 
   .mean, .lamp{
     width: 200px;
     height: 200px;
     margin: 20px;
-    margin-left: 150px;
+    margin-left: 90px;
   }
 
 .social_icons{
