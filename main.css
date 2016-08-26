@@ -46,6 +46,13 @@
   width: 100%;
   height: 100%;
 }
+  .proj_name{
+    display: inline;
+    position: absolute;
+    margin-left: 200px;
+    font-size: 18pt;
+    font-weight: 500;
+  }
   .mean_store{
     display: inline;
   }
@@ -53,10 +60,20 @@
       display: inline-block;
       position: absolute;
       margin-top: 50px;
+      width: 829px;
+    }
+    .mean_store_dets{
+      margin-top: 92px;
+      left: 384px;
     }
     .rps_dets{
       left: 350px;
       margin-top: 75px;
+    }
+    .travel_php_dets{
+      margin-top: 67px;
+      left: 365px;
+
     }
   .proj_img{
     display: inline-block;
