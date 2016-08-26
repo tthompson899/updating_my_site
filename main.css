@@ -1,11 +1,14 @@
 .responsive-video{
   width: 100%;
 }
+.nav-wrapper{
+  position: fixed;
+  z-index: 10;
+}
 
 .about{
   width: 100%;
   height: 100%;
-  border: 2px solid black;
 }
   .responsive-img.circle{
     width: 167px;
@@ -21,24 +24,46 @@
   display: inline-block;
 }
   .front_end{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     margin: 4px;
-    margin-left: 41px;
+    margin-left: 80px;
   }
   .tools{
-    width: 200px;
-    height: 200px;
-    margin-left: 165px;
+    width: 150px;
+    height: 150px;
+    margin-left: 203px;
   }
 
   .mean, .lamp{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     margin: 20px;
-    margin-left: 90px;
+    margin-left: 120px;
   }
 
+.projects{
+  width: 100%;
+  height: 100%;
+}
+  .mean_store{
+    display: inline;
+  }
+    .mean_store_dets, .rps_dets, .travel_php_dets{
+      display: inline-block;
+      position: absolute;
+      margin-top: 50px;
+    }
+    .rps_dets{
+      left: 350px;
+      margin-top: 75px;
+    }
+  .proj_img{
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    margin-left: 80px;
+  }
 .social_icons{
   margin: 18px;
 }
