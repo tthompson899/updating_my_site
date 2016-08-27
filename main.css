@@ -1,9 +1,23 @@
-.responsive-video{
-  width: 100%;
+body{
+  background-color: #475c6c;
 }
 .nav-wrapper{
   position: fixed;
   z-index: 10;
+}
+nav{
+  background-color: #475c6c;
+}
+.responsive-video{
+  width: 100%;
+}
+
+#about, #projects{
+  background-color: #f7efd2;
+}
+
+#skills, #contact{
+  background-color: #8a8583;
 }
 
 .about{
@@ -49,7 +63,7 @@
   .proj_name{
     display: inline;
     position: absolute;
-    margin-left: 200px;
+    left: 650px;
     font-size: 18pt;
     font-weight: 500;
   }
@@ -77,10 +91,15 @@
     }
   .proj_img{
     display: inline-block;
-    width: 400px;
+    width: 260px;
     height: 200px;
     margin-left: 80px;
   }
+
 .social_icons{
   margin: 18px;
+}
+
+footer.page-footer{
+  background-color: #475c6c;
 }
