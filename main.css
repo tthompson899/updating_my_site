@@ -4,7 +4,7 @@ body{
 nav{
   background-color: #475c6c;
 }
-.navigation{
+.navigation {
   position: fixed;
   z-index: 10;
 }
@@ -107,7 +107,7 @@ nav{
 footer.page-footer{
   background-color: #475c6c;
 }
-@media screen and (min-width: 1400px) and (max-width: 2560px){
+@media only screen and (min-width: 1400px) and (max-width: 2560px){
   .navigation ul{
     margin-left: 37%;
   }
@@ -163,7 +163,7 @@ footer.page-footer{
     }
 }
 
-@media only screen and (min-width: 768px){
+@media screen and (max-width: 768px){
   .navigation ul{
     margin-left: 20%;
   }
@@ -301,6 +301,6 @@ footer.page-footer{
 
   .rps_name, .mean_name, .php_name{
     left: 208%;
-    width: 72%; 
+    width: 72%;
   }
 }
