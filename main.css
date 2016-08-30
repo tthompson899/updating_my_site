@@ -93,7 +93,7 @@ nav{
       left: 365px;
 
     }
-  .proj_img{
+  .proj_img img{
     display: inline-block;
     width: 260px;
     height: 200px;
@@ -163,7 +163,7 @@ footer.page-footer{
     }
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (min-width: 768px){
   .navigation ul{
     margin-left: 20%;
   }
@@ -186,12 +186,20 @@ footer.page-footer{
     margin-left: 110%;
   }
 
+  .rps{
+    height: 362px;
+  }
+  .mean_store{
+    height: 230px;
+  }
+  .travel_php{
+    height: 300px;
+  }
+
   .travel_php{
     margin-top: 110px;
   }
-  .proj_img{
 
-  }
   .mean_store_dets, .rps_dets, .travel_php_dets{
     width: 48%;
   }
@@ -199,7 +207,7 @@ footer.page-footer{
       margin-top: 60px;
     }
     .travel_php_dets{
-      margin-top: -8%;
+      margin-top: 1%;
     }
     .mean_store_dets{
       margin-top: 40px;
@@ -215,7 +223,46 @@ footer.page-footer{
     }
 
     .php_name{
-      margin-top: -13%;
+      margin-top: -7%;
       margin-left: -26%;
     }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 414px){
+  body{
+    width: 155%;
+  }
+  /* tools */
+  .git, .atom, .slack{
+    margin-left: 8%;
+  }
+  .front_end, .tools, .mean, .lamp{
+    width: 77px;
+    height: 77px;
+    margin-left: 94%;
+  }
+  /* projects */
+  /*#projects{
+    height: 50%;
+  }*/
+  .proj_img img{
+    width: 77px;
+    height: 77px;
+    margin-left: -33%;
+    margin-top: 15%;
+  }
+
+  .rps, .mean_store, .travel_php{
+    margin-left: 10%;
+  }
+    .rps_name, .mean_name, .php_name{
+      left: 74%;
+      margin-top: 0%;
+      font-size: 12pt;
+      width: 45%;
+    }
+    .rps_dets, .mean_store_dets, .travel_php_dets{
+      left: 36%;
+    }
+
 }
