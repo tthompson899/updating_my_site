@@ -284,3 +284,23 @@ footer.page-footer{
       height: 98%;
     }
 }
+
+@media only screen and (max-width: 320px){
+  body{
+    width: 382%;
+  }
+  .rps{
+    height: 300px;
+  }
+  .mean_store{
+    height: 287px;
+  }
+  .travel_php{
+    height: 287px;
+  }
+
+  .rps_name, .mean_name, .php_name{
+    left: 208%;
+    width: 72%; 
+  }
+}
