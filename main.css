@@ -107,7 +107,29 @@ nav{
 footer.page-footer{
   background-color: #475c6c;
 }
+@media screen and (min-width: 1400px) and (max-width: 2560px){
+  .navigation ul{
+    margin-left: 37%;
+  }
+  .git, .atom, .slack{
+    margin-left: 3%;
+  }
+  .front_end, .tools, .mean, .lamp{
+    width: 200px;
+    height: 200px;
+  }
 
+  .rps, .mean_store, .travel_php{
+    margin-left: 10%;
+  }
+    .rps_name, .mean_name, .php_name{
+      left: 56%;
+    }
+    .rps_dets, .mean_store_dets, .travel_php_dets{
+      left: 36%;
+    }
+
+}
 @media only screen and (min-width: 907px) and (max-width: 993px){
   .navigation ul {
     margin-left: 26%;
