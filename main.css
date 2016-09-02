@@ -121,6 +121,16 @@ nav{
     background: url(images/interests/trans-black-50.png);
     color: white;
   }
+    .rev_info{
+      left: -169px;
+      margin-top: -207px;
+      color: yellow;
+    }
+    .tl_info{
+      right: -1px;
+      top: -186px;
+      color: aliceblue;
+    }
 .social_icons{
   margin: 18px;
 }
@@ -310,6 +320,18 @@ footer.page-footer{
   body{
     width: 382%;
   }
+  .navigation ul{
+    margin-left: 27%;
+  }
+  .html, .css, .javascript, .jquery, .materialize{
+    margin-left: 7%;
+  }
+  .git, .atom, .slack{
+    margin-left: 10%;
+  }
+  .mongo, .express, .angular, .node, .macos, .apache, .mysql, .php{
+    margin-left: 8%;
+  }
   .rps{
     height: 300px;
   }
@@ -323,5 +345,19 @@ footer.page-footer{
   .rps_name, .mean_name, .php_name{
     left: 208%;
     width: 72%;
+  }
+  .rps_dets{
+    width: 177%;
+    left: 144%;
+  }
+  .mean_store_dets{
+    width: 125%;
+    left: 179%;
+    margin-top: 20%;
+  }
+  .travel_php_dets{
+    width: 155%;
+    left: 142%;
+    margin-top: 10%;
   }
 }
