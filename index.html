@@ -7,9 +7,39 @@
     <link rel="stylesheet" href="bower_components/materialize/dist/css/materialize.min.css" media="screen" charset="utf-8">
     <link rel="stylesheet" href="main.css" media="screen" charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/materialize/dist/js/materialize.min.js" charset="utf-8"></script>
   </head>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $('.newbie_photo').hover(
+  		function(){
+  			$(this).find('.newbie_info').fadeIn(250);
+  		},
+  		function(){
+  			$(this).find('.newbie_info').fadeOut(250);
+  		}
+  	);
+
+    $('.rev_photo').hover(
+      function(){
+        $(this).find('.rev_info').fadeIn(250);
+      },
+      function(){
+        $(this).find('.rev_info').fadeOut(250);
+      }
+    );
+
+    $('.tl_photo').hover(
+      function(){
+        $(this).find('.tl_info').fadeIn(250);
+      },
+      function(){
+        $(this).find('.tl_info').fadeOut(250);
+      }
+    )
+  })
+  </script>
   <body>
     <nav class="navigation">
       <ul>
@@ -179,36 +209,50 @@
         When the user is done, they are able to log out.
       </p>
       </div>
-
     </article>
 
     <article id="interests">
       <div class="podcast">
         <h2>Some of My Interests</h2>
           <h3>Podcasts:</h3>
-            <a class="info_photo" href="http://www.codenewbie.org/podcast" target="_blank">
+          <div class="newbie_photo">
+            <div class="newbie_info">
+              <p>Guests of the Code Newbie Podcast come on to talk about their coding journey as far as what obstacles they've faced,
+                hurdles they climbed and what work they are doing now.
+              </p>
+            </div>
+            <a href="http://www.codenewbie.org/podcast" target="_blank">
               <img src="images/interests/code_newbie_podcast.jpeg" title="Code Newbie Podcast"></a>
-              <p class="info">Guests of the Code Newbie Podcast come on to talk about their coding journey as far as what obstacles
-              they've faced, hurdles they climbed and what work they are doing now.</p>
-            <a class="info_photo" href="https://itunes.apple.com/us/podcast/revision-path/id834173190?mt=2" target="_blank">
-              <img src="images/interests/revision_path_podcast.jpeg" title="Revision Path"></a>
-              <p class="info">The show's host, Maurice Cherry, interviews the world's Black industry creatives such as graphic designers,
+          </div>
+
+          <div class="rev_photo">
+            <div class="rev_info">
+              <p >The show's host, Maurice Cherry, interviews the world's Black industry creatives such as graphic designers,
                 web designer and web developers to get an insight into how they stepped into the industry, any hardships they
                 came across as well as what they are doing now and what they hope to achieve in the future.
-            </p>
-            <a class="info_photo" href="https://itunes.apple.com/us/podcast/late-nights-with-trav-and-los/id944869246?mt=2" target="_blank">
-              <img src="images/interests/trav_los_podcast.jpeg" title="Trav and Los Podcast"></a>
-              <p class="info">Trav and Los are
+              </p>
+            </div>
+            <a href="https://itunes.apple.com/us/podcast/revision-path/id834173190?mt=2" target="_blank">
+              <img src="images/interests/revision_path_podcast.jpeg" title="Revision Path"></a>
+          </div>
+
+          <div class="tl_photo">
+            <div class="tl_info">
+              <p>Trav and Los are
                 professional designers/developers. Their podcast touches on professional and life topics. I enjoy tuning
                 into this podcast to hear the life topics, they relate to things that web developers need/should know within
                 the workplace. </p>
+            </div>
+            <a  href="https://itunes.apple.com/us/podcast/late-nights-with-trav-and-los/id944869246?mt=2" target="_blank">
+              <img src="images/interests/trav_los_podcast.jpeg" title="Trav and Los Podcast"></a>
+          </div>
       </div>
       <div class="other_interests">
         <h3>Other Interests:</h3>
-          <p class="more_info">
+          <h4 class="more_info">
             I enjoy listening to music, dancing, live music, reading blogs about web development or tech and
             going to meetups especially those geared toward females in tech.
-          </p>
+          </h4>
       </div>
 
       </article>

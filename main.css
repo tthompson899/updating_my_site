@@ -99,7 +99,28 @@ nav{
     height: 200px;
     margin-left: 80px;
   }
-
+.podcasts{
+  width: 100%;
+}
+  .newbie_photo img, .rev_photo img, .tl_photo img{
+    width: 200px;
+    height: 200px;
+  }
+  .newbie_photo, .rev_photo, .tl_photo{
+    margin-left: 170px;
+    position: relative;
+    display: inline;
+  }
+  .newbie_info, .rev_info, .tl_info{
+    display: none;
+    position: absolute;
+    font-size: 10pt;
+    margin-left: 168px;
+    width: 202px;
+    height: 200px;
+    background: url(images/interests/trans-black-50.png);
+    color: white;
+  }
 .social_icons{
   margin: 18px;
 }
