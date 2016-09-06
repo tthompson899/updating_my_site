@@ -196,7 +196,7 @@ footer.page-footer{
 
 @media screen and (max-width: 768px){
   .navigation ul{
-    margin-left: 20%;
+    margin-left: 15%;
   }
   .responsive-img.circle{
     margin-left: 40%;
@@ -257,6 +257,41 @@ footer.page-footer{
       margin-top: -7%;
       margin-left: -26%;
     }
+
+    .newbie_photo img, .rev_photo img, .tl_photo img{
+      width: 200px;
+      height: 200px;
+    }
+    .newbie_photo, .rev_photo, .tl_photo{
+      margin-left: 128px;
+      position: relative;
+    }
+      .tl_photo{
+        margin-left: 37%;
+      }
+    .newbie_info, .rev_info, .tl_info{
+      display: none;
+      position: absolute;
+      font-size: 10pt;*/
+      margin-left: 168px;
+      width: 202px;
+      height: 200px;
+      background: url(images/interests/trans-black-50.png);
+      color: white;
+    }
+     .newbie_info{
+       margin-left: 62%;
+     }
+    .rev_info{
+      left: -169px;
+      margin-top: -207px;
+      color: yellow;
+    }
+    .tl_info{
+      right: -1px;
+      top: -187px;
+      color: aliceblue;
+    }
 }
 
 @media only screen and (min-width: 360px) and (max-width: 414px){
@@ -265,7 +300,7 @@ footer.page-footer{
   }
   /* navigation */
   .navigation ul{
-    margin-left: 11%;
+    margin-left: 5%;
   }
   /* images for about article */
   .responsive-img.circle{
@@ -324,9 +359,6 @@ footer.page-footer{
       .mean_store_dets{
         margin-top: 19%;
       }
-  /*.podcast{
-    margin-left: 10%;
-  }*/
   .newbie_photo img, .rev_photo img, .tl_photo img{
     width: 200px;
     height: 200px;
