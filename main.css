@@ -159,7 +159,13 @@ footer.page-footer{
     .rps_dets, .mean_store_dets, .travel_php_dets{
       left: 36%;
     }
-
+  .newbie_photo, .rev_photo, .tl_photo{
+    margin-left: 16%;
+    position: relative;
+  }
+    .newbie_info{
+      margin-left: 124%; 
+    }
 }
 @media only screen and (min-width: 907px) and (max-width: 993px){
   .navigation ul {
