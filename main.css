@@ -265,11 +265,14 @@ footer.page-footer{
   }
   /* navigation */
   .navigation ul{
-    margin-left: 10%;
+    margin-left: 11%;
   }
   /* images for about article */
   .responsive-img.circle{
-    margin-left: 35%;
+    margin-left: 38%;
+  }
+  .html, .css, .javascript, .jquery, .materialize{
+
   }
   /* tools */
   .git, .atom, .slack{
@@ -278,7 +281,7 @@ footer.page-footer{
   .front_end, .tools, .mean, .lamp{
     width: 77px;
     height: 77px;
-    margin-left: 94%;
+    margin-left: 139%;
   }
   /* projects */
 
@@ -308,12 +311,56 @@ footer.page-footer{
       font-size: 12pt;
       width: 45%;
     }
+      .php_name{
+        margin-top: -9%;
+        margin-left: -6%;
+      }
     /* project details - p tags */
     .rps_dets, .mean_store_dets, .travel_php_dets{
       left: 41%;
       width: 105%;
       height: 98%;
     }
+      .mean_store_dets{
+        margin-top: 19%;
+      }
+  /*.podcast{
+    margin-left: 10%;
+  }*/
+  .newbie_photo img, .rev_photo img, .tl_photo img{
+    width: 200px;
+    height: 200px;
+  }
+  .newbie_photo, .rev_photo, .tl_photo{
+    margin-left: 79px;
+    position: relative;
+  }
+    .tl_photo{
+      margin-left: 34%;
+    }
+  .newbie_info, .rev_info, .tl_info{
+    display: none;
+    position: absolute;
+    font-size: 10pt;*/
+    margin-left: 168px;
+    width: 202px;
+    height: 200px;
+    background: url(images/interests/trans-black-50.png);
+    color: white;
+  }
+   .newbie_info{
+     margin-left: 39%;
+   }
+  .rev_info{
+    left: -169px;
+    margin-top: -207px;
+    color: yellow;
+  }
+  .tl_info{
+    right: -1px;
+    top: -187px;
+    color: aliceblue;
+  }
 }
 
 @media only screen and (max-width: 320px){
