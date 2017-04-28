@@ -64,7 +64,7 @@ nav{
   width: 100%;
   height: 100%;
 }
-  .rps_name, .mean_name, .po4_name{
+  .rps_name, .mean_name, .po4_name, .rails_books_name{
     display: inline;
     position: absolute;
     left: 650px;
@@ -74,7 +74,7 @@ nav{
   .mean_store{
     /*display: inline;*/
   }
-    .mean_store_dets, .rps_dets, .po4_dets{
+    .mean_store_dets, .rps_dets, .po4_dets, .rails_dets{
       display: inline-block;
       position: absolute;
       margin-top: 50px;
@@ -83,6 +83,10 @@ nav{
     .mean_store_dets{
       margin-top: 92px;
       left: 384px;
+    }
+    .rails_dets{
+      margin-top: 75px;
+      left: 300px;
     }
     .rps_dets{
       left: 350px;
@@ -153,13 +157,13 @@ footer.page-footer{
     height: 200px;
   }
 
-  .rps, .mean_store, .po4{
+  .rps, .mean_store, .po4, .rails_books{
     margin-left: 10%;
   }
-    .rps_name, .mean_name, .po4_name{
+    .rps_name, .mean_name, .po4_name, .rails_books_name{
       left: 56%;
     }
-    .rps_dets, .mean_store_dets, .po4_dets{
+    .rps_dets, .mean_store_dets, .po4_dets, .rails_dets{
       left: 36%;
     }
   .newbie_photo, .rev_photo, .tl_photo{
@@ -188,13 +192,13 @@ footer.page-footer{
   .po4{
     margin-top: 4%;
   }
-  .mean_store_dets, .rps_dets, .po4_dets{
+  .mean_store_dets, .rps_dets, .po4_dets, .rails_dets{
     width: 57%;
   }
     .po4_dets{
       margin-top: 4%;
     }
-  .rps_name, .mean_name, .po4_name{
+  .rps_name, .mean_name, .po4_name, .rails_books_name{
     width: 25%;
     left: 55%;
   }
@@ -229,7 +233,7 @@ footer.page-footer{
   .rps{
     height: 362px;
   }
-  .mean_store{
+  .mean_store, .rails_books{
     height: 230px;
   }
   .po4{
@@ -238,7 +242,7 @@ footer.page-footer{
   }
 
 
-  .mean_store_dets, .rps_dets, .po4_dets{
+  .mean_store_dets, .rps_dets, .po4_dets, .rails_dets{
     width: 48%;
   }
     .rps_dets{
@@ -247,11 +251,11 @@ footer.page-footer{
     .po4_dets{
       margin-top: 1%;
     }
-    .mean_store_dets{
+    .mean_store_dets, .rails_dets{
       margin-top: 40px;
     }
 
-    .mean_name{
+    .mean_name, .rails_books_name{
       margin-top: 0%;
       left: 63%;
     }
@@ -334,7 +338,7 @@ footer.page-footer{
     margin-top: 22%;
   }
   /* divs in article projects tag */
-  .rps, .mean_store, .po4{
+  .rps, .mean_store, .po4, .rails_books{
     margin-left: 10%;
   }
     .rps{
@@ -347,7 +351,7 @@ footer.page-footer{
       height: 347px;
     }
     /* project name - p tag */
-    .rps_name, .mean_name, .po4_name{
+    .rps_name, .mean_name, .po4_name, .rails_books_name{
       left: 74%;
       margin-top: 6%;
       font-size: 12pt;
@@ -358,7 +362,7 @@ footer.page-footer{
         margin-left: -6%;
       }
     /* project details - p tags */
-    .rps_dets, .mean_store_dets, .po4_dets{
+    .rps_dets, .mean_store_dets, .po4_dets, .rails_dets{
       left: 41%;
       width: 105%;
       height: 98%;
@@ -428,7 +432,7 @@ footer.page-footer{
     height: 287px;
   }
 
-  .rps_name, .mean_name, .po4_name{
+  .rps_name, .mean_name, .po4_name, .rails_books_name{
     left: 208%;
     width: 72%;
   }
@@ -436,7 +440,7 @@ footer.page-footer{
     width: 177%;
     left: 144%;
   }
-  .mean_store_dets{
+  .mean_store_dets, .rails_dets{
     width: 125%;
     left: 179%;
     margin-top: 20%;
